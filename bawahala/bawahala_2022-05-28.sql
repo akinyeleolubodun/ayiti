@@ -32,7 +32,7 @@ CREATE TABLE `users` (
   `lname` varchar(150) DEFAULT NULL,
   `email_ad` varchar(150) DEFAULT NULL,
   `phone` varchar(50) DEFAULT NULL,
-  `password` varchar(150) DEFAULT NULL,
+  `address` varchar(150) DEFAULT NULL,
   `status` enum('enabled','disabled') DEFAULT 'enabled',
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
