@@ -59,7 +59,7 @@ if (isset($_GET['r']) && ($_GET['r'] == '232443')) {
                         <td>Email Address*</td><td><input name="email" type="email" value="<?php echo isset($_POST['email']) ? $_POST['email'] : '' ; ?>"></td>
                     </tr>
                     <tr>
-                        <td>Password*</td><td><input name="password" type="password" value="<?php echo isset($_POST['password']) ? $_POST['password'] : '' ; ?>"></td>
+                        <td>pin*</td><td><input name="password" type="password" value="<?php echo isset($_POST['password']) ? $_POST['password'] : '' ; ?>"></td>
                     </tr>
                     <tr>
                         <td>&nbsp;</td><td><input name="submit" type="submit" value="Submit"></td>
