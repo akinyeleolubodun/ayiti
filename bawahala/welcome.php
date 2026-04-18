@@ -13,4 +13,5 @@
 
     ?>
 
+<h1>Learning isset and include</h1>
 <h1>You are highly welcome <?php echo $_SESSION['fname'] . " " . $_SESSION['lname'] ; ?>
