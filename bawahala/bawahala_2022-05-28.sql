@@ -32,6 +32,8 @@ CREATE TABLE `users` (
   `lname` varchar(150) DEFAULT NULL,
   `email_ad` varchar(150) DEFAULT NULL,
   `phone` varchar(50) DEFAULT NULL,
+  `dob` varchar(50) DEFAULT NULL,
+  `address` varchar(50) DEFAULT NULL,
   `password` varchar(150) DEFAULT NULL,
   `status` enum('enabled','disabled') DEFAULT 'enabled',
   `created_at` timestamp NULL DEFAULT NULL,
